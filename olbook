@@ -1,0 +1,71 @@
+#default.groups.packages
+base
+base-devel
+
+# communication.packages
+irssi
+
+# hardware-support.packages
+lsscsi
+sdparm
+sg3_utils
+smartmontools
+
+# xorg.endeavour
+xf86-video-vesa
+xorg-server
+xorg-xinit
+xorg-xkill
+
+mesa
+xf86-input-libinput
+xf86-input-synaptics
+xf86-video-amdgpu
+xf86-video-ati
+vulkan-radeon
+
+# kernel.endeavour
+linux-headers
+dkms
+linux-firmware
+
+# default.bowser.endeavour
+firefox
+ 
+# system.packages
+git
+unrar
+unzip
+wget
+
+# endeavouros.sound
+alsa-utils
+alsa-plugins
+alsa-firmware
+pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-equalizer
+pulseaudio-jack
+
+# developers.wishes
+htop 
+glances
+gtop
+rsync
+hardinfo
+bash-completion
+
+# needed.dependencies
+pavucontrol
+ffmpegthumbnailer
+poppler-glib
+libgsf 
+libopenraw
+freetype2
+gst-libav
+gst-plugins-bad
+gst-plugins-ugly
+gpart
+
+# AUR-support 
+yay
